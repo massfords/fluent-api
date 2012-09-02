@@ -19,13 +19,8 @@ import com.intellij.lang.ASTNode;
 import com.intellij.lang.folding.FoldingBuilderEx;
 import com.intellij.lang.folding.FoldingDescriptor;
 import com.intellij.openapi.editor.Document;
-import com.intellij.psi.PsiAnnotation;
 import com.intellij.psi.PsiElement;
-import com.intellij.psi.PsiMethod;
-import com.intellij.psi.PsiModifierList;
 import org.jetbrains.annotations.NotNull;
-
-import javax.annotation.Generated;
 
 /**
  * @author yole
@@ -33,29 +28,7 @@ import javax.annotation.Generated;
 public class GeneratedMethodFoldingBuilder extends FoldingBuilderEx {
     @NotNull
     public FoldingDescriptor[] buildFoldRegions(@NotNull PsiElement root, @NotNull Document document, boolean quick) {
-        GeneratedFoldingVisitor visitor = new GeneratedFoldingVisitor() {
-            @Override
-            public void visitMethod(PsiMethod method) {
-                PsiModifierList modifierList = method.getModifierList();
-                if (modifierList != null) {
-                    PsiAnnotation annotation = modifierList.findAnnotation(Generated.class.getName());
-                    if (annotation != null) {
-                        System.out.println("folding method:" + method.getName());
-                        addFoldingData(method.getBody());
-                    }
-                }
-                super.visitMethod(method);
-            }
-            @Override
-            public void visitAnnotation(PsiAnnotation annotation) {
-                String name = annotation.getQualifiedName();
-                if (name.equals(Generated.class.getName())) {
-                    addFoldingData(annotation.getParameterList());
-                }
-                super.visitAnnotation(annotation);
-            }
-
-        };
+        GeneratedFoldingVisitor visitor = new GeneratedFoldingVisitor();
         root.accept(visitor);
         return visitor.myFoldingData.toArray(new FoldingDescriptor[visitor.myFoldingData.size()]);
     }

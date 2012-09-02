@@ -2,11 +2,10 @@ package com.googlecode.generatefluentinterface;
 
 import com.intellij.lang.folding.FoldingDescriptor;
 import com.intellij.openapi.util.TextRange;
-import com.intellij.psi.JavaRecursiveElementWalkingVisitor;
-import com.intellij.psi.PsiElement;
-import com.intellij.psi.PsiWhiteSpace;
+import com.intellij.psi.*;
 import com.intellij.psi.util.PsiTreeUtil;
 
+import javax.annotation.Generated;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,11 +13,29 @@ import java.util.List;
  * @author ma21633
  *         Date: 9/1/12
  */
-public abstract class GeneratedFoldingVisitor extends JavaRecursiveElementWalkingVisitor {
-    public static final Object lock = new Object();
+public class GeneratedFoldingVisitor extends JavaRecursiveElementWalkingVisitor {
     private PsiElement myLastElement;
     protected final List<FoldingDescriptor> myFoldingData = new ArrayList<FoldingDescriptor>();
 
+    @Override
+    public void visitMethod(PsiMethod method) {
+        PsiModifierList modifierList = method.getModifierList();
+        if (modifierList != null) {
+            PsiAnnotation annotation = modifierList.findAnnotation(Generated.class.getName());
+            if (annotation != null) {
+                addFoldingData(method.getBody());
+            }
+        }
+        super.visitMethod(method);
+    }
+    @Override
+    public void visitAnnotation(PsiAnnotation annotation) {
+        String name = annotation.getQualifiedName();
+        if (name != null && name.equals(Generated.class.getName())) {
+            addFoldingData(annotation.getParameterList());
+        }
+        super.visitAnnotation(annotation);
+    }
 
     protected void addFoldingData(final PsiElement element) {
         PsiElement prevSibling = PsiTreeUtil.skipSiblingsBackward(element, PsiWhiteSpace.class);

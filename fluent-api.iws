@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1583b18-1a63-4e6c-bbdb-a1d83450f645" name="Default" comment="" />
+    <list default="true" id="a1583b18-1a63-4e6c-bbdb-a1d83450f645" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluent-api.ipr" afterPath="$PROJECT_DIR$/fluent-api.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluent-api.iws" afterPath="$PROJECT_DIR$/fluent-api.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedFoldingVisitor.java" afterPath="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedFoldingVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java" afterPath="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java" />
+    </list>
     <ignored path="fluent-api.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,19 +63,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GeneratedMethodFoldingBuilder.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java">
+      <file leaf-file-name="GeneratedFoldingVisitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedFoldingVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="29" selection-start="2347" selection-end="2347" vertical-scroll-proportion="1.1604278">
+            <state line="25" column="46" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneratedFoldingVisitor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedFoldingVisitor.java">
+      <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="19" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+            <state line="30" column="116" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratedMethodFoldingBuilder.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="13" selection-start="948" selection-end="948" vertical-scroll-proportion="0.32085562">
               <folding />
             </state>
           </provider>
@@ -82,6 +96,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -96,10 +113,10 @@
         <option value="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedCodeFoldingBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/MyFoldingVisitor.java" />
         <option value="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/FoldingVisitor.java" />
-        <option value="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedFoldingVisitor.java" />
         <option value="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedAnnotationCodeFoldingBuilder.java" />
-        <option value="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java" />
         <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedFoldingVisitor.java" />
       </list>
     </option>
   </component>
@@ -128,7 +145,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -154,6 +171,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -164,16 +191,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="fluent-api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -239,7 +256,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -248,9 +265,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -411,15 +428,15 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3978979" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3978979" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31492108" sideWeight="0.6021021" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31420374" sideWeight="0.6021021" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283859" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -488,16 +505,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../IDEA.community/java/java-psi-impl/src/com/intellij/psi/impl/source/PsiMethodImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="324" column="0" selection-start="9739" selection-end="9739" vertical-scroll-proportion="0.023961661" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../IDEA.community/java/compiler/forms-compiler/src/com/intellij/uiDesigner/compiler/AsmCodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1198" selection-end="1198" vertical-scroll-proportion="-4.196676" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/platform/core-api/src/com/intellij/psi/PsiElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="140" column="12" selection-start="4247" selection-end="4247" vertical-scroll-proportion="0.3315508" />
@@ -505,9 +512,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/platform/lang-api/src/com/intellij/lang/folding/FoldingBuilderEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="22" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.023961661">
-          <folding />
-        </state>
+        <state line="33" column="22" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.023961661" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/platform/lang-api/src/com/intellij/lang/folding/FoldingDescriptor.java">
@@ -517,70 +522,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/java/java-psi-impl/src/com/intellij/psi/impl/source/tree/java/PsiAnnotationImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="3823" selection-end="3823" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="102" column="0" selection-start="3823" selection-end="3823" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/platform/core-api/src/com/intellij/psi/util/PsiTreeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="531" column="71" selection-start="19536" selection-end="19536" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="531" column="71" selection-start="19536" selection-end="19536" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/java/java-psi-api/src/com/intellij/psi/PsiAnnotationMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="854" selection-end="854" vertical-scroll-proportion="0.33238637">
-          <folding />
-        </state>
+        <state line="25" column="17" selection-start="854" selection-end="854" vertical-scroll-proportion="0.33238637" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/java/java-psi-api/src/com/intellij/psi/PsiAnnotationParameterList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="801" selection-end="801" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="25" column="17" selection-start="801" selection-end="801" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/platform/core-api/src/com/intellij/psi/PsiElementVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="925" selection-end="925" vertical-scroll-proportion="0.33238637">
-          <folding />
-        </state>
+        <state line="26" column="14" selection-start="925" selection-end="925" vertical-scroll-proportion="0.33238637" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/java/java-psi-api/src/com/intellij/psi/JavaRecursiveElementWalkingVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="14" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.33238637">
-          <folding />
-        </state>
+        <state line="32" column="14" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.33238637" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../IDEA.community/java/java-psi-api/src/com/intellij/psi/JavaElementVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="8" selection-start="4718" selection-end="4718" vertical-scroll-proportion="0.37758112">
+        <state line="179" column="8" selection-start="4718" selection-end="4718" vertical-scroll-proportion="0.37758112" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../IDEA.community/java/java-psi-api/src/com/intellij/psi/PsiMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="18" selection-start="6618" selection-end="6618" vertical-scroll-proportion="0.40095848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../IDEA.community/platform/core-api/src/com/intellij/psi/stubs/StubBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="47" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../IDEA.community/java/java-psi-impl/src/com/intellij/psi/impl/compiled/ClsMethodImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="25" selection-start="6306" selection-end="6306" vertical-scroll-proportion="0.35623002">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedFoldingVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+        <state line="25" column="46" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="66" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0">
+        <state line="30" column="116" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="29" selection-start="2347" selection-end="2347" vertical-scroll-proportion="1.1604278">
+        <state line="27" column="13" selection-start="948" selection-end="948" vertical-scroll-proportion="0.32085562">
           <folding />
         </state>
       </provider>

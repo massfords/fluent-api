@@ -1,0 +1,33 @@
+<idea-plugin version="2">
+  <name>Fluent API Generator</name>
+  <description>Modified version of the google code fluent api plugin</description>
+  <version>1.1</version>
+  <vendor>massfords</vendor>
+
+  <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="107.105"/>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+      <action id="com.googlecode.generate.fluent.interface"
+              class="com.googlecode.generatefluentinterface.GenerateFluentInterfaceAction"
+              text="Fluent Interface Methods..."
+              description="generate fluent interface style properties accessors">
+          <add-to-group group-id="JavaGenerateGroup1" anchor="before"
+                        relative-to-action="GenerateEquals"/>
+      </action>
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+      <lang.foldingBuilder language="JAVA" implementationClass="com.googlecode.generatefluentinterface.GeneratedMethodFoldingBuilder"/>
+  </extensions>
+</idea-plugin>

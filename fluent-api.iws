@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1583b18-1a63-4e6c-bbdb-a1d83450f645" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluent-api.ipr" afterPath="$PROJECT_DIR$/fluent-api.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluent-api.iws" afterPath="$PROJECT_DIR$/fluent-api.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedFoldingVisitor.java" afterPath="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedFoldingVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java" afterPath="$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java" />
     </list>
     <ignored path="fluent-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,7 +81,7 @@
       <file leaf-file-name="GeneratedMethodFoldingBuilder.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="948" selection-end="948" vertical-scroll-proportion="0.32085562">
+            <state line="34" column="87" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.6016043">
               <folding />
             </state>
           </provider>
@@ -418,6 +415,11 @@
       <created>1344582436783</created>
       <updated>1344582436783</updated>
     </task>
+    <task id="LOCAL-00001" summary="- removed abstract from the vizzy by inlining the methods&#10;- removed the unused lock&#10;">
+      <created>1346620672104</created>
+      <updated>1346620672104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -428,15 +430,15 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3978979" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3978979" sideWeight="0.49713057" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3978979" sideWeight="0.4978479" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31420374" sideWeight="0.6021021" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31420374" sideWeight="0.6021021" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283859" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -483,7 +485,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="- removed abstract from the vizzy by inlining the methods&#10;- removed the unused lock&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -496,6 +498,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="- removed abstract from the vizzy by inlining the methods&#10;- removed the unused lock&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -592,7 +595,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/googlecode/generatefluentinterface/GeneratedMethodFoldingBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="948" selection-end="948" vertical-scroll-proportion="0.32085562">
+        <state line="34" column="87" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.6016043">
           <folding />
         </state>
       </provider>
